@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Short Stack', Helvetica, sans-serif;
+}
+
+header, nav {
+    text-align: center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    padding: 16px 16px;
+    background-color: #AB87FF;
+}
+
+h1 {
+    font-size: 2.0em;
+    color:#5d2cce;
+    padding-bottom: 10px;
+    border-bottom: 5px dotted #ff74d1;
+    text-align: center;
+}
+h3 {
+    font-size: 1.6em;
+    color:#d839a3;;
+}
+p {
+    font-size: 1.2em;
+}
+
+/* estilização da lista de navegação */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+}
+
+li a {
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+
+li a:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+/* Estilização do conteúdo principal */
+main {
+    margin: auto;
+}
+
+/* Estilização da seção "sobre" */
+#sobre, #formacao, #portfolio, #form {
+    padding: 0px 200px;
+}
+
+#sobre {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: left; 
+}
+
+#sobre div  {
+    flex: 1;
+    padding: 20px; 
+}
+
+#sobre img {
+    object-fit: cover; 
+    margin-left: 20px; 
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% 
+}
+
+li img {
+    width: 55px;
+}
+
+figure img {
+    max-width: 80%;
+}
+
+/* estilização da seção de formação*/
+#formacao {
+    height: fit-content;
+    padding-bottom: 50px;
+}
+
+#formacao h1 {
+    padding-top: 50px;
+}
+
+#formacao div {
+    padding-bottom: 10px;
+}
+
+
+/* estilizaçao do form */
+#form {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+form {
+    display: inline-block; 
+    box-sizing: border-box;
+    text-align: center;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    background-color: #fffaff;
+    box-shadow: 2px 5px 2px#E384FF,
+                5px 10px #865DFF;
+    width: fit-content;
+    padding: 20px;
+}
+
+form input {
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    width: 280px;
+    height: 25px;
+}
+
+form textarea {
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+    height: 200px;
+}
+
+form button {
+    border-radius: 10px;
+    margin: 20px 0px 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Short Stack', Helvetica, sans-serif;
+}
+
+footer {
+    background-color: #d839a3;
+    color:#ffffff;
+    text-align: center;
+}

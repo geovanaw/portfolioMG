@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Maria Geovana Lima</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/index.css" />
+</head>
+<body>
+    <!-- Estruturação do cabeçalho -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#form">Entre em contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Estruturação do conteúdo principal da página, de forma semântica com separação de cada conteúdo  -->
+    <main>
+        <!-- Estruturação do sobre mim -->
+        <section id="sobre">
+            <div>
+                <h1>Maria Geovana Lima</h1>
+                <p>Olá! 
+                    Tenho 24 anos, moro em Recife, sou graduanda no segundo período Análise e Desenvolvimento de Sistemas e sou apaixonada por gatinhos! <br>
+                    Cresci ligada com a tecnologia, então a maioria dos meus hobbies envolvem coisas online: jogar, assistir, ler! Mas, isso é algo que pretendo mudar e encontrar um equilíbrio com interesses offline. 
+                </p>
+
+                <p><strong>Minhas Stacks:</strong></p>
+                <ul>
+                    <li>
+                        <img src="./assets/img/html.png" alt="Ícone HTML">
+                    </li>
+                    <li>
+                        <img src="./assets/img/css.png" alt="Ícone CSS">
+                    </li>
+                    <li>
+                        <img src="./assets/img/js.png" alt="Ícone JavaScript">
+                    </li>
+                    <li>
+                        <img src="./assets/img/node.png" alt="Ícone Node JS">
+                    </li>
+                    <li>
+                        <img src="./assets/img/mysql.png" alt="Ícone mongoDB">
+                    </li>
+                    <li>
+                        <img src="./assets/img/mongo.png" alt="Ícone MYSQL">
+                    </li>
+                </ul>
+            </div>
+            <div> 
+                <figure>
+                    <img src="assets/img/eu.jpg" alt="Foto própria portfólio">
+                </figure>
+            </div>
+        </section>
+        
+        <!-- Estruturação da formação dividida-->
+        <section id="formacao">
+            <h1>
+                Formação e cursos adicionais
+            </h1>
+
+            <div>
+                <h3>
+                    Bacharelado em Ciências Biológicas (UFRPE)
+                </h3>
+
+                <p>Escolhi Ciências Biológicas como primeira graduação logo após sair do Ensino Médio. Não me encontrei na área mas é essencial e único todo o conhecimento multidisciplinar adquirido.</p>
+            </div>
+            
+            <div>
+                <h3>
+                    Tecnólogo em Análise e Desenvolvimento de Sistemas (UNINTER)
+                </h3>
+                <p>Atualmente, estou no segundo período e gostando bastante das disciplinas ofertadas no curso. Espero conseguir um estágio para aprender mais, de forma prática.</p>
+            </div>
+
+            <div>
+                <h3>Curso de Back-End com JavaScript (ADA) </h3>
+                <p>Curso ofertado pela ADA Tech em parceria com a Potência Tech (iFood) para iniciantes na área de tecnologia. Pude lógica de programação, programação orientada a objetos, banco de dados, programação web e testes automatizados nas linguagens JS e TS.
+                </p>
+                </div>
+        </section>
+
+        <!-- Estruturação do portfólio e Linkedin-->
+        <section id="portfolio">
+            <h1>Portfólio</h1>
+
+            <!-- Escolhi colocar apenas o projeto mais recente -->
+            <section>
+                <h3>Lista de tarefas!</h3>
+                <p>Clicando <a href="https://geovanaw.github.io/todoList/">aqui</a> você pode acessar meu projeto de lista de tarefas! Fiz ele totalmente responsivo para diferentes dispositivos.</p>
+                <figure>
+                    <img src="./assets/img/todolist.png" alt="Site de lista de tarefas">
+                </figure>
+            </section>
+
+            <!-- E induzir a curiosidade para o github, onde estão mais projetos. -->
+            <p>
+                Aqui você pode encontrar o meu <a href="https://github.com/geovanaw">Github</a> com outros projetos! Podemos, também, nos conectar no <a href="https://www.linkedin.com/in/geovanawlima/">Linkedin</a>!
+            </p>
+        </section>
+
+        <!-- Formulário para entrar em contato, utilizando do label como princípio de programação mais inclusiva. -->
+        <section id="form">
+            <h1>Entre em contato!</h1>
+            <p>Se o meu perfil te interessou, sinta-se a vontade para entrar em contato comigo pelas redes sociais ou pelo form abaixo!</p>
+
+            <form>
+                <label for="nome" required>Nome: </label><br>
+                <input type="text" id="nome" name="nome" required> <br>
+
+                <label for="email">E-mail:</label><br>
+                <input type="email" id="email" name="email" required> <br>
+
+                <label for="msg">Mensagem: </label><br>
+                <textarea id="msg" name="msg" required> </textarea> <br>
+
+                <button type="submit">Enviar</button> 
+            </form>
+
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        Feito por Maria Geovana Willyana de Lima.
+    </footer>
+
+
+</body>
+</html>
