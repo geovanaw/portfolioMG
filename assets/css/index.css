@@ -168,7 +168,7 @@ footer {
     li img {
         width: 40px;
     }
-    ul {
+    nav ul {
         flex-direction: column;
         align-items: center; 
     }
