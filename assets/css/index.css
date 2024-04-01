@@ -88,7 +88,7 @@ li img {
 }
 
 figure img {
-    max-width: 80%;
+    max-width: 100%;
 }
 
 /* estilização da seção de formação*/
@@ -151,7 +151,29 @@ form button {
 }
 
 footer {
+    margin-top: 20px;
     background-color: #d839a3;
     color:#ffffff;
     text-align: center;
+}
+
+/* responsividade */
+@media screen and (max-width: 768px) {
+    #sobre, #formacao, #portfolio, #form {
+        padding: 0px;
+    }
+    #sobre {
+        display:inline;
+    }
+    li img {
+        width: 40px;
+    }
+    ul {
+        flex-direction: column;
+        align-items: center; 
+    }
+    li {
+        margin-bottom: 5px; 
+    }
+
 }
